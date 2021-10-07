@@ -413,7 +413,7 @@ Various fiducial points for machine vision alignment.</description>
 <text x="-3.81" y="5.08" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-3.81" y="3.81" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="RJHSE538X" urn="urn:adsk.eagle:footprint:30747765/2" library_version="246">
+<package name="RJHSE538X" urn="urn:adsk.eagle:footprint:30747765/4" library_version="264">
 <description>PCB-mount RJ45 Ethernet socket with metal shield and LEDs.
 Amphenol RJHSE538X.</description>
 <wire x1="8.2" y1="6" x2="8.2" y2="15.8" width="0.3048" layer="21"/>
@@ -423,14 +423,14 @@ Amphenol RJHSE538X.</description>
 <wire x1="-8.2" y1="15.8" x2="-8.2" y2="0" width="0.2032" layer="51"/>
 <wire x1="8.2" y1="0" x2="8.2" y2="15.8" width="0.2032" layer="51"/>
 <wire x1="8.2" y1="15.8" x2="-8.2" y2="15.8" width="0.2032" layer="51"/>
-<pad name="1" x="4.445" y="7.99" drill="0.9" diameter="1.4224"/>
-<pad name="2" x="3.175" y="9.77" drill="0.9" diameter="1.4224"/>
-<pad name="3" x="1.905" y="7.99" drill="0.9" diameter="1.4224"/>
-<pad name="4" x="0.635" y="9.77" drill="0.9" diameter="1.4224"/>
-<pad name="5" x="-0.635" y="7.99" drill="0.9" diameter="1.4224"/>
-<pad name="6" x="-1.905" y="9.77" drill="0.9" diameter="1.4224"/>
-<pad name="7" x="-3.175" y="7.99" drill="0.9" diameter="1.4224"/>
-<pad name="8" x="-4.445" y="9.77" drill="0.9" diameter="1.4224"/>
+<pad name="1" x="3.5" y="7.99" drill="0.9" diameter="1.27"/>
+<pad name="2" x="2.5" y="9.77" drill="0.9" diameter="1.27"/>
+<pad name="3" x="1.5" y="7.99" drill="0.9" diameter="1.27"/>
+<pad name="4" x="0.5" y="9.77" drill="0.9" diameter="1.27"/>
+<pad name="5" x="-0.5" y="7.99" drill="0.9" diameter="1.27"/>
+<pad name="6" x="-1.5" y="9.77" drill="0.9" diameter="1.27"/>
+<pad name="7" x="-2.5" y="7.99" drill="0.9" diameter="1.27"/>
+<pad name="8" x="-3.5" y="9.77" drill="0.9" diameter="1.27"/>
 <pad name="GND@1" x="-7.75" y="9.02" drill="1.8"/>
 <pad name="GND@2" x="7.75" y="9.02" drill="1.8"/>
 <pad name="9" x="6.86" y="14.57" drill="0.9" diameter="1.4224"/>
@@ -1777,6 +1777,23 @@ Amphenol RJHSE538X.</description>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
 </package>
+<package name="SCREWTERMINAL-3.81MM-HOR-4" urn="urn:adsk.eagle:footprint:31332286/1" library_version="263">
+<description>4-way screw terminal, 3.81mm pitch, pluggable, horizontal</description>
+<wire x1="-8.02" y1="5.54" x2="8.02" y2="5.54" width="0.2032" layer="21"/>
+<wire x1="8.02" y1="5.54" x2="8.02" y2="-1.46" width="0.2032" layer="21"/>
+<wire x1="8.02" y1="-1.46" x2="-8.02" y2="-1.46" width="0.2032" layer="21"/>
+<wire x1="-8.02" y1="-1.46" x2="-8.02" y2="5.54" width="0.2032" layer="21"/>
+<wire x1="-8.06" y1="6.4" x2="8.06" y2="6.4" width="0.2032" layer="51"/>
+<wire x1="-8.06" y1="6.4" x2="-8.06" y2="-1.46" width="0.2032" layer="51"/>
+<wire x1="-8.06" y1="-1.46" x2="8.06" y2="-1.46" width="0.2032" layer="51"/>
+<wire x1="8.06" y1="-1.46" x2="8.06" y2="6.4" width="0.2032" layer="51"/>
+<pad name="1" x="-5.715" y="0" drill="1.2" diameter="2" shape="square"/>
+<pad name="2" x="-1.902" y="0" drill="1.2" diameter="2"/>
+<pad name="3" x="1.908" y="0" drill="1.2" diameter="2"/>
+<pad name="4" x="5.718" y="0" drill="1.2" diameter="2"/>
+<text x="0" y="2" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="1.27" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="POWER_JACK_PTH" urn="urn:adsk.eagle:package:7066533/3" type="model" library_version="243">
@@ -1789,7 +1806,7 @@ Amphenol RJHSE538X.</description>
 <packageinstance name="POWER_JACK_SLOTS"/>
 </packageinstances>
 </package3d>
-<package3d name="RJ45-1X1-LEDS" urn="urn:adsk.eagle:package:30747766/3" type="model" library_version="246">
+<package3d name="RJ45-1X1-LEDS" urn="urn:adsk.eagle:package:30747766/5" type="model" library_version="264">
 <description>PCB-mount RJ45 Ethernet socket with metal shield and LEDs.
 Amphenol RJHSE538X.</description>
 <packageinstances>
@@ -1945,6 +1962,12 @@ Amphenol RJHSE538X.</description>
 <description>M02</description>
 <packageinstances>
 <packageinstance name="1X02-P-JUMP-Y"/>
+</packageinstances>
+</package3d>
+<package3d name="SCREWTERMINAL-3.81MM-HOR-4" urn="urn:adsk.eagle:package:31332287/2" type="model" library_version="263">
+<description>4-way screw terminal, 3.81mm pitch, pluggable, horizontal</description>
+<packageinstances>
+<packageinstance name="SCREWTERMINAL-3.81MM-HOR-4"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2149,7 +2172,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </device>
 </devices>
 </deviceset>
-<deviceset name="RJHSE538X" urn="urn:adsk.eagle:component:30747767/3" library_version="246">
+<deviceset name="RJHSE538X" urn="urn:adsk.eagle:component:30747767/5" library_version="264">
 <description>8P8C RJ45 socket with LEDs
 Amphenol RJHSE538X</description>
 <gates>
@@ -2173,7 +2196,7 @@ Amphenol RJHSE538X</description>
 <connect gate="G$1" pin="Y-" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30747766/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30747766/5"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2296,7 +2319,7 @@ Amphenol RJHSE538X</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="M04" urn="urn:adsk.eagle:component:11818442/18" prefix="J" uservalue="yes" library_version="249">
+<deviceset name="M04" urn="urn:adsk.eagle:component:11818442/19" prefix="J" uservalue="yes" library_version="263">
 <description>&lt;b&gt;4-way header&lt;/b&gt;
 Standard 1x4 header, and screw terminal variations</description>
 <gates>
@@ -2424,6 +2447,20 @@ Standard 1x4 header, and screw terminal variations</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:29765091/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SCREW-3.81MM-HOR-PLUG" package="SCREWTERMINAL-3.81MM-HOR-4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31332287/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -3762,11 +3799,6 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <packageinstance name="SOD-323"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT23-3" urn="urn:adsk.eagle:package:28961079/1" type="box" library_version="1">
-<packageinstances>
-<packageinstance name="SOT23-3"/>
-</packageinstances>
-</package3d>
 <package3d name="DIODE-1N4148" urn="urn:adsk.eagle:package:28961084/1" type="box" library_version="1">
 <packageinstances>
 <packageinstance name="DIODE-1N4148"/>
@@ -3796,6 +3828,13 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <packageinstance name="V40DL45"/>
 </packageinstances>
 </package3d>
+<package3d name="SOT23-3" urn="urn:adsk.eagle:package:28961079/2" type="model" library_version="4">
+<description>3-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT23-3"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="DIODE" urn="urn:adsk.eagle:symbol:28961070/1" library_version="1">
@@ -3811,7 +3850,7 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DIODE" urn="urn:adsk.eagle:component:28961093/1" prefix="D" uservalue="yes" library_version="1">
+<deviceset name="DIODE" urn="urn:adsk.eagle:component:28961093/2" prefix="D" uservalue="yes" library_version="4">
 <description>&lt;b&gt;Diode&lt;/b&gt;
 Standard reverse protection diodes and small signal diodes. SMA package can handle up to about 1A. SOD-323 can handle about 200mA.</description>
 <gates>
@@ -3860,7 +3899,7 @@ Standard reverse protection diodes and small signal diodes. SMA package can hand
 <connect gate="G$1" pin="C" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28961079/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28961079/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5136,108 +5175,6 @@ Standard ceramic capacitor</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SuperHouse-Jumpers" urn="urn:adsk.eagle:library:12190622">
-<packages>
-<package name="0402SJC" urn="urn:adsk.eagle:footprint:7065914/1" library_version="3">
-<wire x1="-0.92" y1="0.46" x2="0.92" y2="0.46" width="0.0508" layer="39"/>
-<wire x1="0.92" y1="0.46" x2="0.92" y2="-0.46" width="0.0508" layer="39"/>
-<wire x1="0.92" y1="-0.46" x2="-0.92" y2="-0.46" width="0.0508" layer="39"/>
-<wire x1="-0.92" y1="-0.46" x2="-0.92" y2="0.46" width="0.0508" layer="39"/>
-<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="0.4064" layer="51" curve="-180" cap="flat"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="0.4064" layer="51" curve="-180" cap="flat"/>
-<wire x1="-0.508" y1="0" x2="-0.762" y2="0" width="0.127" layer="51"/>
-<wire x1="0.508" y1="0" x2="0.762" y2="0" width="0.127" layer="51"/>
-<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.2032" layer="1"/>
-<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.127" layer="51"/>
-<smd name="1" x="-0.48" y="0" dx="0.571" dy="0.62" layer="1"/>
-<smd name="2" x="0.48" y="0" dx="0.571" dy="0.62" layer="1"/>
-<text x="-0.889" y="0.508" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-0.9652" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35" rot="R180"/>
-</package>
-<package name="SJC" urn="urn:adsk.eagle:footprint:7065915/1" library_version="3">
-<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.4064" layer="1"/>
-<wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.3048" layer="51"/>
-<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
-<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
-<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="0402SJC" urn="urn:adsk.eagle:package:7066341/2" type="empty" library_version="3">
-<packageinstances>
-<packageinstance name="0402SJC"/>
-</packageinstances>
-</package3d>
-<package3d name="SJC" urn="urn:adsk.eagle:package:7066342/2" type="empty" library_version="3">
-<packageinstances>
-<packageinstance name="SJC"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="SJC" urn="urn:adsk.eagle:symbol:12190623/1" library_version="2">
-<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.4064" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SJC" urn="urn:adsk.eagle:component:12190625/2" library_version="2">
-<description>Solder jumper. Normally closed: does not need solder to close. Can be opened by cutting the track.</description>
-<gates>
-<gate name="G$1" symbol="SJC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0402" package="0402SJC">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7066341/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-NORMAL" package="SJC">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7066342/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5255,8 +5192,8 @@ Standard ceramic capacitor</description>
 <part name="FID2" library="SuperHouse-Symbols" library_urn="urn:adsk.eagle:library:13228893" deviceset="FIDUCIAL" device="1X2.5" package3d_urn="urn:adsk.eagle:package:13228898/2"/>
 <part name="J1" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" deviceset="POWER_JACK" device="-SLOTS" package3d_urn="urn:adsk.eagle:package:7066536/4"/>
 <part name="SW1" library="SuperHouse-Switches" library_urn="urn:adsk.eagle:library:11744182" deviceset="TAC-SWITCH-2PIN-GND" device="-FSMMSHPTR" package3d_urn="urn:adsk.eagle:package:11818000/2" value="MODE"/>
-<part name="U$3" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" deviceset="RJHSE538X" device="-INVERTED" package3d_urn="urn:adsk.eagle:package:30747766/3"/>
-<part name="U$4" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" deviceset="RJHSE538X" device="-INVERTED" package3d_urn="urn:adsk.eagle:package:30747766/3"/>
+<part name="J5" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" deviceset="RJHSE538X" device="-INVERTED" package3d_urn="urn:adsk.eagle:package:30747766/5"/>
+<part name="J6" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" deviceset="RJHSE538X" device="-INVERTED" package3d_urn="urn:adsk.eagle:package:30747766/5"/>
 <part name="GND1" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="GND" device=""/>
 <part name="GND2" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="GND" device=""/>
 <part name="LED1" library="SuperHouse-LEDs" library_urn="urn:adsk.eagle:library:11790571" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:7066465/3"/>
@@ -5271,8 +5208,8 @@ Standard ceramic capacitor</description>
 <part name="GND4" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="GND" device=""/>
 <part name="P+1" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="5V" device=""/>
 <part name="P+2" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="5V" device=""/>
-<part name="U$5" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" deviceset="M02X13" device="-S" package3d_urn="urn:adsk.eagle:package:30748302/2"/>
-<part name="U$6" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" deviceset="M02X13" device="-S" package3d_urn="urn:adsk.eagle:package:30748302/2"/>
+<part name="J7" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" deviceset="M02X13" device="-S" package3d_urn="urn:adsk.eagle:package:30748302/2"/>
+<part name="J8" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" deviceset="M02X13" device="-S" package3d_urn="urn:adsk.eagle:package:30748302/2"/>
 <part name="J2" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" deviceset="M04" device="-SOCKET" package3d_urn="urn:adsk.eagle:package:11818440/4" value="PoE"/>
 <part name="GND5" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="GND" device=""/>
 <part name="P+3" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="5V" device=""/>
@@ -5316,9 +5253,6 @@ Standard ceramic capacitor</description>
 <part name="P+6" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="5V" device=""/>
 <part name="R1" library="SuperHouse-Resistors" library_urn="urn:adsk.eagle:library:28961094" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:28961141/1" value="220R"/>
 <part name="R2" library="SuperHouse-Resistors" library_urn="urn:adsk.eagle:library:28961094" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:28961141/1" value="220R"/>
-<part name="U$1" library="SuperHouse-Jumpers" library_urn="urn:adsk.eagle:library:12190622" deviceset="SJC" device="-0402" package3d_urn="urn:adsk.eagle:package:7066341/2"/>
-<part name="U$2" library="SuperHouse-Jumpers" library_urn="urn:adsk.eagle:library:12190622" deviceset="SJC" device="-0402" package3d_urn="urn:adsk.eagle:package:7066341/2"/>
-<part name="GND13" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="GND" device=""/>
 <part name="GND14" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="GND" device=""/>
 <part name="R6" library="SuperHouse-Resistors" library_urn="urn:adsk.eagle:library:28961094" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:28961141/1" value="10K"/>
 <part name="P+7" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="3.3V" device=""/>
@@ -5329,7 +5263,7 @@ Standard ceramic capacitor</description>
 <sheet>
 <plain>
 <text x="142.24" y="20.32" size="3.048" layer="94">IoT WiFi Access Point</text>
-<text x="172.72" y="14.478" size="1.778" layer="94">V3.2 (2021-09-13)</text>
+<text x="172.72" y="14.478" size="1.778" layer="94">V1.0 (2021-09-13)</text>
 <text x="142.24" y="14.478" size="1.778" layer="94">SKU: IOTAP</text>
 <text x="141.986" y="9.398" size="1.778" layer="94">(C)2021 SuperHouse Automation Pty Ltd: www.superhouse.tv</text>
 <text x="141.986" y="6.35" size="1.778" layer="94">Licensed under the TAPR Open Hardware License: www.tapr.org/ohl</text>
@@ -5362,6 +5296,10 @@ Standard ceramic capacitor</description>
 <wire x1="167.64" y1="83.82" x2="190.5" y2="83.82" width="0.4064" layer="97" style="longdash"/>
 <wire x1="190.5" y1="76.2" x2="190.5" y2="83.82" width="0.4064" layer="97" style="longdash"/>
 <wire x1="190.5" y1="76.2" x2="228.6" y2="76.2" width="0.4064" layer="97" style="longdash"/>
+<text x="127" y="109.22" size="1.6764" layer="97">To Do:
+* Move diodes near bottom jack and
+route traces from there
+* Relocate PoE module to under PCB</text>
 </plain>
 <instances>
 <instance part="FID1" gate="G$1" x="236.22" y="7.62" smashed="yes"/>
@@ -5374,11 +5312,11 @@ Standard ceramic capacitor</description>
 <attribute name="NAME" x="119.38" y="21.59" size="1.778" layer="95"/>
 <attribute name="VALUE" x="119.38" y="8.89" size="1.778" layer="96"/>
 </instance>
-<instance part="U$3" gate="G$1" x="17.78" y="147.32" smashed="yes">
+<instance part="J5" gate="G$1" x="17.78" y="147.32" smashed="yes">
 <attribute name="NAME" x="12.7" y="162.56" size="1.778" layer="94"/>
 <attribute name="VALUE" x="12.7" y="160.02" size="1.778" layer="94"/>
 </instance>
-<instance part="U$4" gate="G$1" x="109.22" y="147.32" smashed="yes" rot="MR0">
+<instance part="J6" gate="G$1" x="109.22" y="147.32" smashed="yes" rot="MR0">
 <attribute name="NAME" x="114.3" y="162.56" size="1.778" layer="94" rot="MR0"/>
 <attribute name="VALUE" x="114.3" y="160.02" size="1.778" layer="94" rot="MR0"/>
 </instance>
@@ -5408,11 +5346,11 @@ Standard ceramic capacitor</description>
 <instance part="P+2" gate="G$1" x="48.26" y="101.6" smashed="yes">
 <attribute name="VALUE" x="47.244" y="105.156" size="1.778" layer="96"/>
 </instance>
-<instance part="U$5" gate="G$1" x="149.86" y="149.86" smashed="yes">
+<instance part="J7" gate="G$1" x="149.86" y="149.86" smashed="yes">
 <attribute name="VALUE" x="149.86" y="129.54" size="1.778" layer="96" align="bottom-center"/>
 <attribute name="NAME" x="149.86" y="168.402" size="1.778" layer="95" align="bottom-center"/>
 </instance>
-<instance part="U$6" gate="G$1" x="215.9" y="149.86" smashed="yes">
+<instance part="J8" gate="G$1" x="215.9" y="149.86" smashed="yes">
 <attribute name="VALUE" x="215.9" y="129.54" size="1.778" layer="96" align="bottom-center"/>
 <attribute name="NAME" x="215.9" y="168.402" size="1.778" layer="95" align="bottom-center"/>
 </instance>
@@ -5568,17 +5506,6 @@ Standard ceramic capacitor</description>
 <attribute name="NAME" x="67.31" y="171.6786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.39" y="171.6786" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="45.72" y="142.24" smashed="yes">
-<attribute name="NAME" x="43.18" y="144.78" size="1.778" layer="95"/>
-<attribute name="VALUE" x="43.18" y="138.43" size="1.778" layer="96"/>
-</instance>
-<instance part="U$2" gate="G$1" x="45.72" y="132.08" smashed="yes">
-<attribute name="NAME" x="43.18" y="134.62" size="1.778" layer="95"/>
-<attribute name="VALUE" x="43.18" y="128.27" size="1.778" layer="96"/>
-</instance>
-<instance part="GND13" gate="1" x="55.88" y="121.92" smashed="yes">
-<attribute name="VALUE" x="53.34" y="119.38" size="1.778" layer="96"/>
-</instance>
 <instance part="GND14" gate="1" x="132.08" y="5.08" smashed="yes">
 <attribute name="VALUE" x="129.54" y="2.54" size="1.778" layer="96"/>
 </instance>
@@ -5639,11 +5566,11 @@ Standard ceramic capacitor</description>
 <junction x="10.16" y="99.06"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="26"/>
+<pinref part="J8" gate="G$1" pin="26"/>
 <wire x1="223.52" y1="134.62" x2="226.06" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="G$1" pin="5V"/>
 <wire x1="226.06" y1="134.62" x2="226.06" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="24"/>
+<pinref part="J8" gate="G$1" pin="24"/>
 <wire x1="226.06" y1="137.16" x2="226.06" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="137.16" x2="226.06" y2="137.16" width="0.1524" layer="91"/>
 <junction x="226.06" y="137.16"/>
@@ -5704,13 +5631,21 @@ Standard ceramic capacitor</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="J5" gate="G$1" pin="GND"/>
 <wire x1="33.02" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="35.56" y1="127" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="G-"/>
+<wire x1="33.02" y1="132.08" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="132.08" x2="35.56" y2="127" width="0.1524" layer="91"/>
+<junction x="35.56" y="127"/>
+<pinref part="J5" gate="G$1" pin="Y-"/>
+<wire x1="33.02" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="139.7" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
+<junction x="35.56" y="132.08"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="GND"/>
+<pinref part="J6" gate="G$1" pin="GND"/>
 <wire x1="93.98" y1="127" x2="88.9" y2="127" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="88.9" y1="127" x2="88.9" y2="124.46" width="0.1524" layer="91"/>
@@ -5752,15 +5687,15 @@ Standard ceramic capacitor</description>
 <junction x="78.74" y="63.5"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="22"/>
+<pinref part="J8" gate="G$1" pin="22"/>
 <wire x1="223.52" y1="139.7" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="228.6" y1="139.7" x2="228.6" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="8"/>
+<pinref part="J8" gate="G$1" pin="8"/>
 <wire x1="223.52" y1="157.48" x2="228.6" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="157.48" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
 <junction x="228.6" y="139.7"/>
-<pinref part="U$6" gate="G$1" pin="14"/>
+<pinref part="J8" gate="G$1" pin="14"/>
 <wire x1="228.6" y1="149.86" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="149.86" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
 <junction x="228.6" y="149.86"/>
@@ -5768,10 +5703,10 @@ Standard ceramic capacitor</description>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="203.2" y1="129.54" x2="203.2" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="1"/>
+<pinref part="J8" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="144.78" x2="203.2" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="165.1" x2="208.28" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="17"/>
+<pinref part="J8" gate="G$1" pin="17"/>
 <wire x1="208.28" y1="144.78" x2="203.2" y2="144.78" width="0.1524" layer="91"/>
 <junction x="203.2" y="144.78"/>
 </segment>
@@ -5868,20 +5803,10 @@ Standard ceramic capacitor</description>
 <junction x="20.32" y="17.78"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="2"/>
+<pinref part="J7" gate="G$1" pin="2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="157.48" y1="165.1" x2="160.02" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="165.1" x2="160.02" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="132.08" x2="55.88" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="55.88" y1="132.08" x2="55.88" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="142.24" x2="55.88" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="142.24" x2="55.88" y2="132.08" width="0.1524" layer="91"/>
-<junction x="55.88" y="132.08"/>
 </segment>
 <segment>
 <pinref part="SW1" gate="G$1" pin="2"/>
@@ -5901,29 +5826,29 @@ Standard ceramic capacitor</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="1"/>
-<pinref part="U$4" gate="G$1" pin="1"/>
+<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="J6" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="167.64" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="2"/>
-<pinref part="U$4" gate="G$1" pin="2"/>
+<pinref part="J5" gate="G$1" pin="2"/>
+<pinref part="J6" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="165.1" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="3"/>
-<pinref part="U$4" gate="G$1" pin="3"/>
+<pinref part="J5" gate="G$1" pin="3"/>
+<pinref part="J6" gate="G$1" pin="3"/>
 <wire x1="33.02" y1="162.56" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="6"/>
-<pinref part="U$4" gate="G$1" pin="6"/>
+<pinref part="J5" gate="G$1" pin="6"/>
+<pinref part="J6" gate="G$1" pin="6"/>
 <wire x1="33.02" y1="154.94" x2="93.98" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6008,10 +5933,10 @@ Standard ceramic capacitor</description>
 <segment>
 <pinref part="P+5" gate="G$1" pin="3.3V"/>
 <wire x1="205.74" y1="167.64" x2="205.74" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="25"/>
+<pinref part="J8" gate="G$1" pin="25"/>
 <wire x1="205.74" y1="154.94" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="134.62" x2="208.28" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="9"/>
+<pinref part="J8" gate="G$1" pin="9"/>
 <wire x1="208.28" y1="154.94" x2="205.74" y2="154.94" width="0.1524" layer="91"/>
 <junction x="205.74" y="154.94"/>
 </segment>
@@ -6059,14 +5984,14 @@ Standard ceramic capacitor</description>
 <junction x="182.88" y="93.98"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="4"/>
+<pinref part="J8" gate="G$1" pin="4"/>
 <wire x1="223.52" y1="162.56" x2="228.6" y2="162.56" width="0.1524" layer="91"/>
 <label x="228.6" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SDA0" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="3"/>
+<pinref part="J8" gate="G$1" pin="3"/>
 <wire x1="208.28" y1="162.56" x2="200.66" y2="162.56" width="0.1524" layer="91"/>
 <label x="200.66" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6082,7 +6007,7 @@ Standard ceramic capacitor</description>
 </net>
 <net name="GPIO2_B5" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="1"/>
+<pinref part="J7" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="165.1" x2="139.7" y2="165.1" width="0.1524" layer="91"/>
 <label x="139.7" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6096,7 +6021,7 @@ Standard ceramic capacitor</description>
 </net>
 <net name="GPIO2_B6" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="3"/>
+<pinref part="J7" gate="G$1" pin="3"/>
 <wire x1="142.24" y1="162.56" x2="139.7" y2="162.56" width="0.1524" layer="91"/>
 <label x="139.7" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6108,7 +6033,7 @@ Standard ceramic capacitor</description>
 </net>
 <net name="GPIO2_B7" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="5"/>
+<pinref part="J7" gate="G$1" pin="5"/>
 <wire x1="142.24" y1="160.02" x2="139.7" y2="160.02" width="0.1524" layer="91"/>
 <label x="139.7" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6191,11 +6116,11 @@ Standard ceramic capacitor</description>
 </net>
 <net name="POE1+" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="4"/>
+<pinref part="J5" gate="G$1" pin="4"/>
 <wire x1="33.02" y1="160.02" x2="78.74" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="160.02" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="147.32" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="4"/>
+<pinref part="J6" gate="G$1" pin="4"/>
 <wire x1="93.98" y1="160.02" x2="78.74" y2="160.02" width="0.1524" layer="91"/>
 <junction x="78.74" y="160.02"/>
 <label x="81.28" y="147.32" size="1.27" layer="95" xref="yes"/>
@@ -6208,11 +6133,11 @@ Standard ceramic capacitor</description>
 </net>
 <net name="POE2+" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="5"/>
+<pinref part="J5" gate="G$1" pin="5"/>
 <wire x1="33.02" y1="157.48" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="157.48" x2="76.2" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="144.78" x2="81.28" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="5"/>
+<pinref part="J6" gate="G$1" pin="5"/>
 <wire x1="76.2" y1="157.48" x2="93.98" y2="157.48" width="0.1524" layer="91"/>
 <junction x="76.2" y="157.48"/>
 <label x="81.28" y="144.78" size="1.27" layer="95" xref="yes"/>
@@ -6225,11 +6150,11 @@ Standard ceramic capacitor</description>
 </net>
 <net name="POE1-" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="7"/>
+<pinref part="J5" gate="G$1" pin="7"/>
 <wire x1="33.02" y1="152.4" x2="73.66" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="152.4" x2="73.66" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="142.24" x2="81.28" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="7"/>
+<pinref part="J6" gate="G$1" pin="7"/>
 <wire x1="93.98" y1="152.4" x2="73.66" y2="152.4" width="0.1524" layer="91"/>
 <junction x="73.66" y="152.4"/>
 <label x="81.28" y="142.24" size="1.27" layer="95" xref="yes"/>
@@ -6242,11 +6167,11 @@ Standard ceramic capacitor</description>
 </net>
 <net name="POE2-" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="8"/>
+<pinref part="J5" gate="G$1" pin="8"/>
 <wire x1="33.02" y1="149.86" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="149.86" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="139.7" x2="81.28" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="8"/>
+<pinref part="J6" gate="G$1" pin="8"/>
 <wire x1="71.12" y1="149.86" x2="93.98" y2="149.86" width="0.1524" layer="91"/>
 <junction x="71.12" y="149.86"/>
 <label x="81.28" y="139.7" size="1.27" layer="95" xref="yes"/>
@@ -6285,45 +6210,25 @@ Standard ceramic capacitor</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="Y+"/>
+<pinref part="J5" gate="G$1" pin="Y+"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="142.24" x2="35.56" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="142.24" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="147.32" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="147.32" x2="58.42" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="142.24" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="142.24" x2="58.42" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="175.26" x2="66.04" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="G+"/>
+<pinref part="J5" gate="G$1" pin="G+"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="134.62" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="134.62" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="137.16" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="137.16" x2="60.96" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="134.62" x2="60.96" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="134.62" x2="60.96" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="170.18" x2="66.04" y2="170.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="Y-"/>
-<wire x1="33.02" y1="139.7" x2="38.1" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="139.7" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="142.24" x2="40.64" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="G-"/>
-<pinref part="U$2" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="132.08" x2="40.64" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO2_C0" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="7"/>
+<pinref part="J7" gate="G$1" pin="7"/>
 <wire x1="142.24" y1="157.48" x2="139.7" y2="157.48" width="0.1524" layer="91"/>
 <label x="139.7" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6346,14 +6251,14 @@ Standard ceramic capacitor</description>
 </net>
 <net name="SDA1" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="23"/>
+<pinref part="J8" gate="G$1" pin="23"/>
 <wire x1="208.28" y1="137.16" x2="200.66" y2="137.16" width="0.1524" layer="91"/>
 <label x="200.66" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCL1" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="21"/>
+<pinref part="J8" gate="G$1" pin="21"/>
 <wire x1="208.28" y1="139.7" x2="200.66" y2="139.7" width="0.1524" layer="91"/>
 <label x="200.66" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6372,6 +6277,10 @@ Standard ceramic capacitor</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
