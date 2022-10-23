@@ -21,6 +21,13 @@ Hardware
 The "Hardware" directory contains the PCB design as an EAGLE project.
 
 
+Enclosure
+---------
+The enclosure is model AK-NW-40 from SZOMK:
+
+  https://www.aliexpress.com/item/33043522751.html
+
+
 Credits
 -------
  * Jonathan Oxer <jon@oxer.com.au>
