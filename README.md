@@ -21,23 +21,6 @@ Hardware
 The "Hardware" directory contains the PCB design as an EAGLE project.
 
 
-Firmware
---------
-The "Firmware" directory contains example firmware as an Arduino
-project.
-
-
-Enclosure
----------
-The "Enclosure" directory contains STLs for a case that can be
-3D-printed.
-
-The two halves of the case should be printed with the flat face down to
-the printer bed.
-
-The case can be held shut by M3 bolts.
-
-
 Credits
 -------
  * Jonathan Oxer <jon@oxer.com.au>
