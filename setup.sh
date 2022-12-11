@@ -18,8 +18,6 @@ cp spi1off.dtbo /boot/overlays/
 
 # Install network bridge configuration
 cp br0 /etc/network/interfaces.d/
-# Add devices to the bridge
-sudo brctl addif br0 eth0
 
 # Install service control script
 cp iotap /etc/init.d/
