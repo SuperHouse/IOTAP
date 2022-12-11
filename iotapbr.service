@@ -1,0 +1,11 @@
+[Unit]
+Description=IoT AP Bridge
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=brctl addif br0 eth0
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
