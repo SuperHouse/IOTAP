@@ -31,11 +31,13 @@ The enclosure is model AK-NW-40 from SZOMK:
 Credits
 -------
  * Jonathan Oxer <jon@oxer.com.au>
+ * Tony Smith
+ * All the folks watching and commenting on the streams!
 
 
 License
 -------
-Copyright 2020-2021 SuperHouse Automation Pty Ltd  www.superhouse.tv  
+Copyright 2020-2022 SuperHouse Automation Pty Ltd  www.superhouse.tv  
 
 The hardware portion of this project is licensed under the TAPR Open
 Hardware License (www.tapr.org/OHL). The "license" folder within this
