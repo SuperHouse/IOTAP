@@ -26,9 +26,8 @@ ln -s /etc/init.d/iotap /etc/rc3.d/S02iotap
 
 # Install service definition
 cp iotapbr.service /etc/systemd/system/
-# Enable it
-systemctl enable iotapbr.service
-systemctl daemon-reload
+# Enable and start the service
+systemctl enable --now iotapbr.service
 
 # Install LED rainbow binary as if it's a startup script (yuck)
 cp rgb-rainbow /etc/init.d/
