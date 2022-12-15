@@ -16,10 +16,5 @@ colon=:
 #  Construct Ethernet MAC address from CPU serial number
 addr="$addrleft$serial1$colon$serial2$colon$serial3"
 echo $addr
-sudo dtoverlay spi1-3cs cs0_spidev=disable cs1_spidev=disable cs2_spidev=disable
-sudo dtoverlay w5500-spi1 int_pin=25 cs=0 mac=$addr
-
-sleep 20
-
-# Add the network interfaces to the bridge
-sudo brctl addif br0 eth0
+dtoverlay spi1-3cs cs0_spidev=disable cs1_spidev=disable cs2_spidev=disable
+dtoverlay w5500-spi1 int_pin=25 cs=0 mac=$addr
