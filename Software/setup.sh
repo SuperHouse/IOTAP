@@ -42,6 +42,4 @@ systemctl unmask hostapd
 systemctl enable hostapd
 systemctl start hostapd
 
-sudo brctl addif br0 eth0
-
 reboot &
