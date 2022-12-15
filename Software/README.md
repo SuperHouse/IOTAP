@@ -21,10 +21,6 @@
  * Reboot the AP: "sudo reboot".
  * After a few minutes the LEDs will start blinking and the AP will be online.
 
-HOWEVER, there is a bug: the bridge doesn't have the interfaces added properly.
-This has to be run manually:
-  sudo brctl addif br0 eth0
-
 ## Usage
 
  * To check connected clients: " sta_all"
